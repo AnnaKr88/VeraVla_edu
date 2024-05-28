@@ -1,0 +1,22 @@
+@import url("/src/import.module.less");
+
+.arch{
+	display: inline-grid;
+	padding: calc(var(--index) / 2);
+	background: linear-gradient(180deg, rgba(0, 224, 255, 0.11) 0%, rgba(0, 224, 255, 0.0539) 100%);
+	position: relative;
+	border-radius: 6px;
+	&::before{
+		content: '';
+		position: absolute;
+		inset: 0;
+		border-radius: inherit;
+		border: 1px solid transparent;
+		background: linear-gradient(70deg, rgba(31, 77, 96, 0.43) 25%, rgba(73, 185, 232, .7) 55%, rgba(31, 77, 96, 0.43) 65%) border-box;
+		mask:
+				linear-gradient(#fff 0 0) padding-box, 
+				linear-gradient(#fff 0 0);
+		-webkit-mask-composite: destination-out;
+		mask-composite: exclude;
+	}
+}

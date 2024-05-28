@@ -1,0 +1,19 @@
+@import url("/src/import.module.less");
+
+.calling {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: calc(var(--index) * 2);
+
+	.text{
+		color: @lightBlue;
+		text-transform: uppercase;
+		font-family: @avenirNextCyr;
+		letter-spacing: calc(var(--index) / 5);
+		font-size: calc(var(--index) / 2);
+		writing-mode: vertical-rl;
+		transform: rotate(180deg);
+	}
+}

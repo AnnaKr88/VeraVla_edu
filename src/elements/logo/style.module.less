@@ -1,0 +1,31 @@
+@import url("/src/import.module.less");
+
+#logo{
+	text-decoration: none;
+	display: inline-block;
+	
+	h1{
+		color: @blue;
+		font-size: calc(var(--index) * 1);
+		font-family: @kodchasan-light;
+	}
+
+	p{
+		color: @white;
+		font-size: calc(var(--index) / 2.2);
+		font-family: @kodchasan-regular;
+		line-height: calc(var(--index) / 3);		
+	}
+}
+
+.logo{	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 1vw;
+	
+	&_pic{
+		width: calc(var(--index) * 3);
+		height: calc(var(--index) * 3);
+	}
+}

@@ -1,0 +1,18 @@
+@import url("/src/import.module.less");
+
+
+.phone{
+	display: flex;
+	align-items: center;
+	gap: calc(var(--index) / 2);
+
+	.phoneIcon{
+		width: calc(var(--index) * 1);
+		height: calc(var(--index) * 1);
+	}
+	p{
+		color: @white;
+		font-family: @avenirNextCyr;
+		font-size: calc(var(--index) / 1.5);
+	}
+}
