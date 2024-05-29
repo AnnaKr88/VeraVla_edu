@@ -1,0 +1,345 @@
+:root {
+	--index: calc(1vw + 1vh);
+	--padding: calc(var(--index) * 2) 0px;
+}
+
+@font-face {
+  font-family: Chilanka;
+  src: url(../assets/fonts/Chilanka/Chilanka-Regular.bd162ef898aceaae59c0.ttf);
+}
+@font-face {
+  font-family: Kodchasan-regular;
+  src: url(../assets/fonts/kodchasan/Kodchasanregular.9c254ebaa0e119aba210.ttf);
+}
+@font-face {
+  font-family: Kodchasan-light;
+  src: url(../assets/fonts/kodchasan/Kodchasanlight.d844128eddc58bf2cc5f.ttf);
+}
+@font-face {
+  font-family: AvenirNextCyr;
+  src: url(../assets/fonts/Avenir_Next_Cyr/avenirnextcyr-medium.179fa5daa949c68bbece.ttf);
+}
+#src-elements-logo-style-module__logo--nO0mB {
+  text-decoration: none;
+  display: inline-block;
+}
+#src-elements-logo-style-module__logo--nO0mB h1 {
+  color: #4ABCEC;
+  font-size: calc(var(--index) * 1);
+  font-family: Kodchasan-light, sans-serif;
+}
+#src-elements-logo-style-module__logo--nO0mB p {
+  color: #fff;
+  font-size: calc(var(--index) / 2.2);
+  font-family: Kodchasan-regular, sans-serif;
+  line-height: calc(var(--index) / 3);
+}
+.src-elements-logo-style-module__logo--nO0mB {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+}
+.src-elements-logo-style-module__logo_pic--XkTL7 {
+  width: calc(var(--index) * 3);
+  height: calc(var(--index) * 3);
+}
+
+@font-face {
+  font-family: Chilanka;
+  src: url(../assets/fonts/Chilanka/Chilanka-Regular.bd162ef898aceaae59c0.ttf);
+}
+@font-face {
+  font-family: Kodchasan-regular;
+  src: url(../assets/fonts/kodchasan/Kodchasanregular.9c254ebaa0e119aba210.ttf);
+}
+@font-face {
+  font-family: Kodchasan-light;
+  src: url(../assets/fonts/kodchasan/Kodchasanlight.d844128eddc58bf2cc5f.ttf);
+}
+@font-face {
+  font-family: AvenirNextCyr;
+  src: url(../assets/fonts/Avenir_Next_Cyr/avenirnextcyr-medium.179fa5daa949c68bbece.ttf);
+}
+.src-elements-phone-style-module__phone--kR1_H {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--index) / 2);
+}
+.src-elements-phone-style-module__phone--kR1_H .src-elements-phone-style-module__phoneIcon--Q50D7 {
+  width: calc(var(--index) * 1);
+  height: calc(var(--index) * 1);
+}
+.src-elements-phone-style-module__phone--kR1_H p {
+  color: #fff;
+  font-family: AvenirNextCyr, sans-serif;
+  font-size: calc(var(--index) / 1.5);
+}
+
+@font-face {
+  font-family: Chilanka;
+  src: url(../assets/fonts/Chilanka/Chilanka-Regular.bd162ef898aceaae59c0.ttf);
+}
+@font-face {
+  font-family: Kodchasan-regular;
+  src: url(../assets/fonts/kodchasan/Kodchasanregular.9c254ebaa0e119aba210.ttf);
+}
+@font-face {
+  font-family: Kodchasan-light;
+  src: url(../assets/fonts/kodchasan/Kodchasanlight.d844128eddc58bf2cc5f.ttf);
+}
+@font-face {
+  font-family: AvenirNextCyr;
+  src: url(../assets/fonts/Avenir_Next_Cyr/avenirnextcyr-medium.179fa5daa949c68bbece.ttf);
+}
+.src-shared-button-style-module__button--g3V_z {
+  margin: 0;
+  padding: var(--index);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.src-shared-button-style-module__border--JOHz4 {
+  border: 1px solid #00E0FF;
+}
+.src-shared-button-style-module__borderLight--FDT9M {
+  outline: calc(var(--index) / 1.2) solid rgba(0, 224, 255, 0.1);
+}
+.src-shared-button-style-module__borderShadow--d155I {
+  box-shadow: 0 calc(var(--index) / 4) 10px calc(var(--index) / 10) rgba(0, 224, 255, 0.35);
+}
+.src-shared-button-style-module__fill--Vg42v {
+  background: linear-gradient(#03E1FFA8 66%, #13CDC2 100%);
+}
+.src-shared-button-style-module__circle--Xzm_T {
+  border-radius: 100%;
+}
+.src-shared-button-style-module__sqr--BjuZ9 {
+  border-radius: 9px;
+}
+
+@font-face {
+  font-family: Chilanka;
+  src: url(../assets/fonts/Chilanka/Chilanka-Regular.bd162ef898aceaae59c0.ttf);
+}
+@font-face {
+  font-family: Kodchasan-regular;
+  src: url(../assets/fonts/kodchasan/Kodchasanregular.9c254ebaa0e119aba210.ttf);
+}
+@font-face {
+  font-family: Kodchasan-light;
+  src: url(../assets/fonts/kodchasan/Kodchasanlight.d844128eddc58bf2cc5f.ttf);
+}
+@font-face {
+  font-family: AvenirNextCyr;
+  src: url(../assets/fonts/Avenir_Next_Cyr/avenirnextcyr-medium.179fa5daa949c68bbece.ttf);
+}
+.src-shared-buttonsRadial-style-module__buttons--ZhfwP {
+  color: #fff;
+  width: calc(var(--index) * 1.5);
+  height: calc(var(--index) * 1.5);
+}
+
+@font-face {
+  font-family: Chilanka;
+  src: url(../assets/fonts/Chilanka/Chilanka-Regular.bd162ef898aceaae59c0.ttf);
+}
+@font-face {
+  font-family: Kodchasan-regular;
+  src: url(../assets/fonts/kodchasan/Kodchasanregular.9c254ebaa0e119aba210.ttf);
+}
+@font-face {
+  font-family: Kodchasan-light;
+  src: url(../assets/fonts/kodchasan/Kodchasanlight.d844128eddc58bf2cc5f.ttf);
+}
+@font-face {
+  font-family: AvenirNextCyr;
+  src: url(../assets/fonts/Avenir_Next_Cyr/avenirnextcyr-medium.179fa5daa949c68bbece.ttf);
+}
+.src-shared-arch-style-module__arch--A9DPY {
+  display: inline-grid;
+  padding: calc(var(--index) / 2);
+  background: linear-gradient(180deg, rgba(0, 224, 255, 0.11) 0%, rgba(0, 224, 255, 0.0539) 100%);
+  position: relative;
+  border-radius: 6px;
+}
+.src-shared-arch-style-module__arch--A9DPY::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  border: 1px solid transparent;
+  background: linear-gradient(70deg, rgba(31, 77, 96, 0.43) 25%, rgba(73, 185, 232, 0.7) 55%, rgba(31, 77, 96, 0.43) 65%) border-box;
+  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+}
+
+@font-face {
+  font-family: Chilanka;
+  src: url(../assets/fonts/Chilanka/Chilanka-Regular.bd162ef898aceaae59c0.ttf);
+}
+@font-face {
+  font-family: Kodchasan-regular;
+  src: url(../assets/fonts/kodchasan/Kodchasanregular.9c254ebaa0e119aba210.ttf);
+}
+@font-face {
+  font-family: Kodchasan-light;
+  src: url(../assets/fonts/kodchasan/Kodchasanlight.d844128eddc58bf2cc5f.ttf);
+}
+@font-face {
+  font-family: AvenirNextCyr;
+  src: url(../assets/fonts/Avenir_Next_Cyr/avenirnextcyr-medium.179fa5daa949c68bbece.ttf);
+}
+.src-elements-calling-style-module__calling--D0O7h {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: calc(var(--index) * 2);
+}
+.src-elements-calling-style-module__calling--D0O7h .src-elements-calling-style-module__text--UEtpF {
+  color: #00E0FF;
+  text-transform: uppercase;
+  font-family: AvenirNextCyr, sans-serif;
+  letter-spacing: calc(var(--index) / 5);
+  font-size: calc(var(--index) / 2);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+}
+
+@font-face {
+  font-family: Chilanka;
+  src: url(../assets/fonts/Chilanka/Chilanka-Regular.bd162ef898aceaae59c0.ttf);
+}
+@font-face {
+  font-family: Kodchasan-regular;
+  src: url(../assets/fonts/kodchasan/Kodchasanregular.9c254ebaa0e119aba210.ttf);
+}
+@font-face {
+  font-family: Kodchasan-light;
+  src: url(../assets/fonts/kodchasan/Kodchasanlight.d844128eddc58bf2cc5f.ttf);
+}
+@font-face {
+  font-family: AvenirNextCyr;
+  src: url(../assets/fonts/Avenir_Next_Cyr/avenirnextcyr-medium.179fa5daa949c68bbece.ttf);
+}
+#src-pages-Header-style-module__header--wQfgO {
+  font-family: AvenirNextCyr, sans-serif;
+  /*!important*/
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  align-content: space-between;
+  padding: var(--padding);
+}
+#src-pages-Header-style-module__header--wQfgO .src-pages-Header-style-module__top--xvIfF {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#src-pages-Header-style-module__header--wQfgO .src-pages-Header-style-module__content_conteiner--ErNrv {
+  display: grid;
+  gap: calc(var(--index) * 1);
+}
+#src-pages-Header-style-module__header--wQfgO .src-pages-Header-style-module__content_text--jROd5 {
+  color: #fff;
+}
+#src-pages-Header-style-module__header--wQfgO .src-pages-Header-style-module__content_text--jROd5 h1 {
+  font-size: calc(var(--index) * 4);
+  background: linear-gradient(#ffffff 45%, rgba(255, 255, 255, 0.2) 90%);
+  background-clip: text;
+  color: transparent;
+}
+#src-pages-Header-style-module__header--wQfgO .src-pages-Header-style-module__content_text--jROd5 p:first-child {
+  opacity: 0.5;
+  font-size: calc(var(--index) / 1.5);
+}
+#src-pages-Header-style-module__header--wQfgO .src-pages-Header-style-module__content_text--jROd5 p:last-child {
+  font-size: calc(var(--index) / 1.35);
+}
+#src-pages-Header-style-module__header--wQfgO .src-pages-Header-style-module__content_block--l0dH5 {
+  display: flex;
+}
+#src-pages-Header-style-module__header--wQfgO .src-pages-Header-style-module__content_block--l0dH5 .src-pages-Header-style-module__block_pic--VthqA {
+  width: calc(var(--index) * 1.3);
+  height: calc(var(--index) * 1.3);
+}
+#src-pages-Header-style-module__header--wQfgO .src-pages-Header-style-module__content_block--l0dH5 .src-pages-Header-style-module__block_text--_4Jz0 h5 {
+  color: #fff;
+  font-size: calc(var(--index) / 1.35);
+}
+#src-pages-Header-style-module__header--wQfgO .src-pages-Header-style-module__content_block--l0dH5 .src-pages-Header-style-module__block_text--_4Jz0 p {
+  color: #4ABCEC;
+  font-size: calc(var(--index) / 1.5);
+}
+#src-pages-Header-style-module__header--wQfgO .src-pages-Header-style-module__content_buttons--zv9rf {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#src-pages-Header-style-module__header--wQfgO .src-pages-Header-style-module__content_buttons--zv9rf .src-pages-Header-style-module__buttons_calling--Rv3LZ p {
+  font-family: AvenirNextCyr, sans-serif;
+  /*!important*/
+  color: #fff;
+  font-size: calc(var(--index) / 1.5);
+  text-transform: uppercase;
+  letter-spacing: calc(var(--index) / 7.5);
+}
+#src-pages-Header-style-module__header--wQfgO .src-pages-Header-style-module__content_buttons--zv9rf .src-pages-Header-style-module__buttons_down--rjrJP {
+  display: flex;
+  gap: var(--index);
+  transform: rotate(270deg);
+  align-items: center;
+}
+#src-pages-Header-style-module__header--wQfgO .src-pages-Header-style-module__content_buttons--zv9rf .src-pages-Header-style-module__buttons_down--rjrJP .src-pages-Header-style-module__button_down--Q9vOw {
+  padding: calc(var(--index) / 5);
+  border: 1.5px solid #4A8BEC;
+  border-radius: 50px;
+  width: calc(var(--index) * 1.7);
+}
+#src-pages-Header-style-module__header--wQfgO .src-pages-Header-style-module__content_buttons--zv9rf .src-pages-Header-style-module__buttons_down--rjrJP .src-pages-Header-style-module__button_down--Q9vOw button {
+  margin-left: 55%;
+  transform: rotate(90deg);
+}
+#src-pages-Header-style-module__header--wQfgO .src-pages-Header-style-module__content_buttons--zv9rf .src-pages-Header-style-module__buttons_down--rjrJP p {
+  color: rgba(255, 255, 255, 0.2);
+  text-transform: uppercase;
+  font-size: calc(var(--index) / 1.5);
+  letter-spacing: calc(var(--index) / 7.5);
+}
+#src-pages-Header-style-module__header--wQfgO .src-pages-Header-style-module__content--UCeU0::after {
+  content: '';
+  display: block;
+  height: calc(var(--index) * 2);
+}
+
+@font-face {
+  font-family: Chilanka;
+  src: url(../assets/fonts/Chilanka/Chilanka-Regular.bd162ef898aceaae59c0.ttf);
+}
+@font-face {
+  font-family: Kodchasan-regular;
+  src: url(../assets/fonts/kodchasan/Kodchasanregular.9c254ebaa0e119aba210.ttf);
+}
+@font-face {
+  font-family: Kodchasan-light;
+  src: url(../assets/fonts/kodchasan/Kodchasanlight.d844128eddc58bf2cc5f.ttf);
+}
+@font-face {
+  font-family: AvenirNextCyr;
+  src: url(../assets/fonts/Avenir_Next_Cyr/avenirnextcyr-medium.179fa5daa949c68bbece.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.src-app-removeStyle-module__app--GSx8t {
+  padding: 0 15%;
+  background-color: #022335;
+}
+

@@ -23,13 +23,13 @@ const Header = () => {
 						<p>
 							Добро пожаловать в онлайн школу 
 						</p>
-						<h1>VeraVla edu!</h1>
+						<h1>VeraVla&nbsp;edu!</h1>
 						<p>
 							Переквалифицируйся в разработчика искусственного интеллекта и получи высокооплачиваемую работу    
 						</p>
 					</div>
 					<div className={styles.content_block}>
-						<Arch>
+						<Arch className={styles.block_arch}>
 							<Diplom className={styles.block_pic}></Diplom>
 						</Arch>
 						<div className={styles.block_text}>

@@ -7,7 +7,7 @@ export const App = () => {
 			>
 				{/* <TestPage></TestPage> */}
 			<Header></Header>
-			{/* <Resons></Resons>
+			<Resons></Resons>
 			<ITPage></ITPage>
 			<Important></Important>
 			<AboutCourse></AboutCourse>
@@ -15,7 +15,7 @@ export const App = () => {
 			<Author></Author>
 			<School></School>
 			<Vacancy></Vacancy>
-			<Footer></Footer> */}
+			<Footer></Footer>
 		</div>
 	)
 }

@@ -7,7 +7,7 @@ interface IArch{
 
 const Arch:FC<PropsWithChildren<IArch>> = (props) => {
 	return (
-		<div className={`${styles.arch} ${props.className}`}>
+		<div className={`${styles.arch} ${props.className ? props.className : ''}`}>
 
 			{props.children}
 
